@@ -6,10 +6,10 @@ import IconLogo from "./icons/IconLogo.vue";
   <div>
     <a
       href="/"
-      class="flex size-10 w-fit items-center transition duration-300 hover:scale-120"
+      class="flex w-fit items-center transition duration-300 hover:scale-120"
     >
       <IconLogo />
-      <span class="text-lg text-blue-500">Voin</span>
+      <span class="text-lime-500">Voin</span>
     </a>
   </div>
 </template>

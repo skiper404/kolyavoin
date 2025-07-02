@@ -1,6 +1,8 @@
 <script setup>
 import IconChevron from "./icons/IconChevron.vue";
 import bg3 from "@/assets/bg4.jpg";
+import IconStar from "./icons/IconStar.vue";
+IconStar;
 </script>
 
 <template>
@@ -15,9 +17,10 @@ import bg3 from "@/assets/bg4.jpg";
     <div
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="z-10 text-4xl font-extralight text-yellow-500"
+      class="z-10 flex items-end gap-2 text-2xl font-extralight text-yellow-500"
     >
-      Услуги
+      <IconStar />
+      <div>Услуги</div>
     </div>
     <div
       data-aos="fade-left"

@@ -1,5 +1,5 @@
 <script setup>
-import { FaceSmileIcon } from "@heroicons/vue/24/outline";
+import { FaceSmileIcon } from "@heroicons/vue/16/solid";
 </script>
 
 <template>

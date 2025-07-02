@@ -7,7 +7,7 @@ const mainStore = useMainStore();
 
 <template>
   <nav
-    class="flex flex-1 flex-col items-center justify-center gap-4 pt-10 text-4xl whitespace-nowrap"
+    class="flex flex-1 flex-col justify-center gap-4 pt-10 text-xl whitespace-nowrap"
   >
     <IconClose class="absolute top-4 right-4" @click="mainStore.closeMenu" />
 

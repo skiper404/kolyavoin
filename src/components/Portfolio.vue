@@ -1,5 +1,6 @@
 <script setup>
 import bg4 from "@/assets/bg4.jpg";
+import IconPortfolio from "./icons/IconPortfolio.vue";
 </script>
 
 <template>
@@ -14,8 +15,9 @@ import bg4 from "@/assets/bg4.jpg";
     <div
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="z-10 text-4xl font-extralight text-green-500"
+      class="z-10 flex items-center gap-2 text-2xl font-extralight text-green-500"
     >
+      <IconPortfolio />
       Портфолио
     </div>
     <div

@@ -1,6 +1,7 @@
 <script setup>
 import bg5 from "@/assets/bg5.jpg";
 import IconChevron from "./icons/IconChevron.vue";
+import IconOffers from "./icons/IconOffers.vue";
 </script>
 
 <template>
@@ -15,9 +16,10 @@ import IconChevron from "./icons/IconChevron.vue";
     <div
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="z-10 text-4xl text-white"
+      class="z-10 flex items-end text-2xl text-white"
     >
-      Акции
+      <IconOffers />
+      <div>Акции</div>
     </div>
     <div
       data-aos="fade-left"

@@ -1,6 +1,7 @@
 <script setup>
 import bg1 from "@/assets/bg1.jpg";
 import IconChevron from "./icons/IconChevron.vue";
+import IconUser from "./icons/IconUser.vue";
 </script>
 
 <template>
@@ -15,9 +16,10 @@ import IconChevron from "./icons/IconChevron.vue";
     <div
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="font-press-start z-10 text-4xl font-extralight text-red-500"
+      class="font-press-start z-10 flex items-end text-2xl font-extralight text-red-500"
     >
-      Обо мне
+      <IconUser />
+      Oбо мне
     </div>
     <div
       data-aos="fade-left"
