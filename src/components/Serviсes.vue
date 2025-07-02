@@ -1,25 +1,32 @@
 <script setup>
 import IconChevron from "./icons/IconChevron.vue";
-import bg3 from "@/assets/bg3.jpg";
+import bg3 from "@/assets/bg4.jpg";
 </script>
 
 <template>
-  <div class="relative flex h-screen flex-col items-center px-10 text-white">
+  <div
+    id="services"
+    class="relative flex h-[100vh] flex-col items-center p-10 pt-20 text-white"
+  >
     <div
       :style="`background-image: url(${bg3})`"
       class="absolute inset-0 bg-cover bg-center shadow-lg"
     ></div>
     <div
-      class="z-10 text-8xl text-white transition duration-300 hover:scale-120 hover:-rotate-6 hover:text-violet-500"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      class="z-10 text-4xl font-extralight text-yellow-500"
     >
       Услуги
     </div>
     <div
+      data-aos="fade-left"
+      data-aos-duration="1000"
       class="z-10 mt-10 flex h-100 w-full items-center justify-center border border-violet-500 bg-black/80 p-10 text-xl"
     >
       <div class="transition duration-300 hover:scale-150">Тут Блок услуг</div>
     </div>
-    <IconChevron class="absolute bottom-16" />
+    <IconChevron class="absolute bottom-0" />
   </div>
 </template>
 

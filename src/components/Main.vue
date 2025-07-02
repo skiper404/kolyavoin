@@ -8,7 +8,7 @@ import SpecialOffers from "./SpecialOffers.vue";
 </script>
 
 <template>
-  <div class="mt-18">
+  <div>
     <Home />
     <About />
     <Serviсes />

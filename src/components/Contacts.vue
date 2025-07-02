@@ -7,23 +7,26 @@ import IconYouTube from "./icons/IconYouTube.vue";
 </script>
 
 <template>
-  <div class="relative flex h-screen flex-col items-center px-10 text-white">
+  <div
+    id="contacts"
+    class="relative flex h-[100vh] flex-col items-center p-10 pt-20 text-white"
+  >
     <div
       :style="`background-image: url(${bg2})`"
       class="absolute inset-0 bg-cover bg-center shadow-lg"
     ></div>
     <div
-      class="z-10 text-8xl text-white transition duration-300 hover:scale-120 hover:-rotate-6 hover:text-violet-500"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      class="z-10 text-4xl text-blue-500"
     >
       Контакты
     </div>
-    <div
-      class="z-10 mt-10 flex w-full items-center justify-around gap-2 border-violet-500 bg-black/80 p-10 text-xl"
-    >
-      <IconInstagram />
-      <IconTelegram />
-      <IconViber />
-      <IconYouTube />
+    <div class="z-10 mt-10 grid grid-cols-2 gap-10 p-10">
+      <IconInstagram data-aos="fade-down" data-aos-duration="1000" />
+      <IconTelegram data-aos="fade-left" data-aos-duration="1000" />
+      <IconViber data-aos="fade-right" data-aos-duration="1000" />
+      <IconYouTube data-aos="fade-up" data-aos-duration="1000" />
     </div>
   </div>
 </template>

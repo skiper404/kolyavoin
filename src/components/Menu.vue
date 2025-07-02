@@ -1,11 +1,11 @@
-<script setup></script>
+<script setup>
+import NavigationMobile from "./NavigationMobile.vue";
+</script>
 
 <template>
-  <div class="absolute inset-0 z-20 bg-black/80">
-    <div
-      class="m-10 border text-5xl text-violet-700 transition duration-300 hover:text-blue-500"
-    >
-      Menu
+  <div class="fixed inset-0 z-20 scroll-m-56 bg-black/90">
+    <div class="m-10">
+      <NavigationMobile />
     </div>
   </div>
 </template>

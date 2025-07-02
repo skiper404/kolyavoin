@@ -6,5 +6,11 @@ export const useMainStore = defineStore("MainStore", () => {
   const openMenu = () => (showMenu.value = true);
   const closeMenu = () => (showMenu.value = false);
 
-  return { showMenu, openMenu, closeMenu };
+  const activeTab = ref(null);
+
+  const setActiveTab = (tab) => {
+    activeTab.value = tab;
+  };
+
+  return { showMenu, openMenu, closeMenu, activeTab, setActiveTab };
 });

@@ -9,7 +9,9 @@ const mainStore = useMainStore();
 </script>
 
 <template>
-  <div class="relative overflow-hidden bg-gray-800 text-sm text-white">
+  <div
+    class="font-press-start relative overflow-hidden scroll-smooth bg-gray-800 text-sm text-white"
+  >
     <Header />
     <Menu v-if="mainStore.showMenu" @click="mainStore.closeMenu" />
     <Main />

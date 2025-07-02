@@ -1,14 +1,16 @@
 <script setup>
-import { CheckBadgeIcon } from "@heroicons/vue/24/outline";
+import IconLogo from "./icons/IconLogo.vue";
 </script>
 
 <template>
   <div>
-    <div
-      class="size-10 text-violet-700 transition duration-300 hover:scale-120 hover:text-blue-500"
+    <a
+      href="/"
+      class="flex size-10 w-fit items-center transition duration-300 hover:scale-120"
     >
-      <CheckBadgeIcon />
-    </div>
+      <IconLogo />
+      <span class="text-lg text-blue-500">Voin</span>
+    </a>
   </div>
 </template>
 

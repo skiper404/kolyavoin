@@ -7,25 +7,38 @@ import bg2 from "/src/assets/bg2.jpg";
 
 <template>
   <div
-    class="relative flex h-screen flex-col items-center overflow-hidden text-white"
+    id="/"
+    class="relative flex h-[100dvh] flex-col items-center overflow-hidden pt-40 text-white"
   >
     <div
       :style="`background-image: url(${bg2})`"
       class="absolute inset-0 bg-cover bg-center shadow-lg"
     ></div>
     <div
-      class="mt-30 grid animate-pulse grid-cols-1 gap-6 text-9xl font-extralight md:grid-cols-2"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      class="flex flex-col items-center gap-10 text-5xl sm:text-6xl md:flex-row"
     >
       <div class="flex">
         <span>V</span>
-        <IconSmile />
-        <span>in</span>
+        <IconSmile class="relative -top-2" />
+        <span>I</span>
+        <span>N</span>
       </div>
-      <div>
-        <span>Studio</span>
+      <div class="flex">
+        <span class="text-red-500">S</span>
+        <span class="text-orange-500">t</span>
+        <span class="text-yellow-500">u</span>
+        <span class="text-green-500">d</span>
+        <span class="text-blue-500">i</span>
+        <span class="text-violet-500">o</span>
       </div>
     </div>
-    <div class="z-10 mt-10 text-center text-2xl font-extralight text-white">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      class="z-10 mt-10 text-center text-white"
+    >
       Просто доверься мне...
     </div>
     <IconChevron class="absolute bottom-16" />
