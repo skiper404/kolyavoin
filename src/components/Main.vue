@@ -1,9 +1,19 @@
+<script setup>
+import About from "./About.vue";
+import Contacts from "./Contacts.vue";
+import Home from "./Home.vue";
+import Portfolio from "./Portfolio.vue";
+import Serviсes from "./Serviсes.vue";
+import SpecialOffers from "./SpecialOffers.vue";
+</script>
+
 <template>
-  <div class="mt-18 flex h-[1000px] items-center justify-center">
-    <div>Main</div>
+  <div class="mt-18">
+    <Home />
+    <About />
+    <Serviсes />
+    <Portfolio />
+    <SpecialOffers />
+    <Contacts />
   </div>
 </template>
-
-<script setup></script>
-
-<style lang="scss" scoped></style>
