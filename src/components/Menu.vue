@@ -1,5 +1,14 @@
 <script setup>
 import NavigationMobile from "./NavigationMobile.vue";
+import { onMounted, onUnmounted } from "vue";
+
+onMounted(() => {
+  document.body.style.overflow = "hidden";
+});
+
+onUnmounted(() => {
+  document.body.style.overflow = "";
+});
 </script>
 
 <template>

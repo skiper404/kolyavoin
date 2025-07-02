@@ -12,5 +12,33 @@ export const useMainStore = defineStore("MainStore", () => {
     activeTab.value = tab;
   };
 
-  return { showMenu, openMenu, closeMenu, activeTab, setActiveTab };
+  const name = ref("");
+  const email = ref("");
+  const phone = ref("");
+
+  const isSubmit = ref(false);
+
+  const submit = () => {
+    name.value = "";
+    email.value = "";
+    phone.value = "";
+    isSubmit.value = true;
+
+    setTimeout(() => {
+      isSubmit.value = false;
+    }, 1000);
+  };
+
+  return {
+    showMenu,
+    openMenu,
+    closeMenu,
+    activeTab,
+    setActiveTab,
+    name,
+    email,
+    phone,
+    submit,
+    isSubmit,
+  };
 });

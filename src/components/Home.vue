@@ -15,8 +15,8 @@ import bg2 from "/src/assets/bg2.jpg";
       class="absolute inset-0 bg-cover bg-center shadow-lg"
     ></div>
     <div
-      data-aos="fade-down"
-      data-aos-duration="1000"
+      data-aos="zoom-out"
+      data-aos-duration="3000"
       class="flex flex-col items-center gap-10 text-5xl sm:text-6xl md:flex-row"
     >
       <div class="flex">
@@ -36,7 +36,7 @@ import bg2 from "/src/assets/bg2.jpg";
     </div>
     <div
       data-aos="fade-up"
-      data-aos-duration="1000"
+      data-aos-duration="3000"
       class="z-10 mt-10 text-center text-white"
     >
       Просто доверься мне...
