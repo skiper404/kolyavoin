@@ -6,7 +6,7 @@ import IconContacts from "./icons/IconContacts.vue";
 
 <template>
   <div
-    class="flex items-center gap-2 rounded-full p-2 text-xs hover:bg-gray-600 md:bg-gray-700 md:px-4"
+    class="flex items-center gap-2 rounded-full p-2 text-xs transition duration-300 hover:bg-gray-600 md:bg-gray-700 md:px-4"
   >
     <div class="hidden animate-pulse lg:block">Написать</div>
     <div class="flex gap-4">

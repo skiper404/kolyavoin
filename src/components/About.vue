@@ -1,18 +1,12 @@
 <script setup>
-import bg1 from "@/assets/bg1.jpg";
-import IconChevron from "./icons/IconChevron.vue";
 import IconUser from "./icons/IconUser.vue";
 </script>
 
 <template>
   <div
     id="about"
-    class="relative flex h-[100vh] flex-col items-center p-10 pt-20 text-white"
+    class="relative flex flex-col items-center px-10 pt-20 text-white"
   >
-    <div
-      :style="`background-image: url(${bg1})`"
-      class="absolute inset-0 bg-cover bg-center shadow-lg"
-    ></div>
     <div
       data-aos="fade-right"
       data-aos-duration="1000"
@@ -30,6 +24,5 @@ import IconUser from "./icons/IconUser.vue";
         Тут Блок информации о себе
       </span>
     </div>
-    <IconChevron class="absolute bottom-0" />
   </div>
 </template>

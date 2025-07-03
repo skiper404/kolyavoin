@@ -1,8 +1,6 @@
 <script setup>
 import IconChevron from "./icons/IconChevron.vue";
 import IconSmile from "./icons/IconSmile.vue";
-
-import bg2 from "/src/assets/bg2.jpg";
 </script>
 
 <template>
@@ -10,10 +8,6 @@ import bg2 from "/src/assets/bg2.jpg";
     id="/"
     class="relative flex h-[100dvh] flex-col items-center overflow-hidden pt-40 text-white"
   >
-    <div
-      :style="`background-image: url(${bg2})`"
-      class="absolute inset-0 bg-cover bg-center shadow-lg"
-    ></div>
     <div
       data-aos="zoom-out"
       data-aos-duration="3000"
@@ -41,6 +35,6 @@ import bg2 from "/src/assets/bg2.jpg";
     >
       Просто доверься мне...
     </div>
-    <IconChevron class="absolute bottom-16" />
+    <IconChevron class="absolute bottom-10" />
   </div>
 </template>

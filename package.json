@@ -13,8 +13,10 @@
     "@tailwindcss/vite": "^4.1.11",
     "aos": "^2.3.4",
     "pinia": "^3.0.3",
+    "plyr": "^3.7.8",
     "tailwindcss": "^4.1.11",
-    "vue": "^3.5.17"
+    "vue": "^3.5.17",
+    "vue-plyr": "^7.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",

@@ -1,5 +1,4 @@
 <script setup>
-import bg2 from "@/assets/bg2.jpg";
 import IconInstagram from "./icons/IconInstagram.vue";
 import IconTelegram from "./icons/IconTelegram.vue";
 import IconViber from "./icons/IconViber.vue";
@@ -15,13 +14,9 @@ const mainStore = useMainStore();
     class="relative flex flex-col items-center p-2 pt-20 text-white"
   >
     <div
-      :style="`background-image: url(${bg2})`"
-      class="absolute inset-0 bg-cover bg-center shadow-lg"
-    ></div>
-    <div
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="z-10 flex gap-4 text-2xl text-blue-500"
+      class="z-10 flex gap-4 text-2xl text-violet-500"
     >
       <IconContacts />
       <div>Контакты</div>

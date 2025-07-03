@@ -1,5 +1,4 @@
 <script setup>
-import bg5 from "@/assets/bg5.jpg";
 import IconChevron from "./icons/IconChevron.vue";
 import IconOffers from "./icons/IconOffers.vue";
 </script>
@@ -7,16 +6,12 @@ import IconOffers from "./icons/IconOffers.vue";
 <template>
   <div
     id="specialOffers"
-    class="relative flex h-[100vh] flex-col items-center p-10 pt-20 text-white"
+    class="relative flex flex-col items-center p-10 pt-20 text-white"
   >
-    <div
-      :style="`background-image: url(${bg5})`"
-      class="absolute inset-0 bg-cover bg-center shadow-lg"
-    ></div>
     <div
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="z-10 flex items-end text-2xl text-white"
+      class="z-10 flex items-end text-2xl text-blue-500"
     >
       <IconOffers />
       <div>Акции</div>
@@ -28,6 +23,5 @@ import IconOffers from "./icons/IconOffers.vue";
     >
       <span class="transition duration-300 hover:scale-150"> Тут акции </span>
     </div>
-    <IconChevron class="absolute bottom-0" />
   </div>
 </template>

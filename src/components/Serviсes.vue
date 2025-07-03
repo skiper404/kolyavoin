@@ -1,6 +1,4 @@
 <script setup>
-import IconChevron from "./icons/IconChevron.vue";
-import bg3 from "@/assets/bg4.jpg";
 import IconStar from "./icons/IconStar.vue";
 IconStar;
 </script>
@@ -8,12 +6,8 @@ IconStar;
 <template>
   <div
     id="services"
-    class="relative flex h-[100vh] flex-col items-center p-10 pt-20 text-white"
+    class="relative flex flex-col items-center px-10 pt-20 text-white"
   >
-    <div
-      :style="`background-image: url(${bg3})`"
-      class="absolute inset-0 bg-cover bg-center shadow-lg"
-    ></div>
     <div
       data-aos="fade-right"
       data-aos-duration="1000"
@@ -29,7 +23,6 @@ IconStar;
     >
       <div class="transition duration-300 hover:scale-150">Тут Блок услуг</div>
     </div>
-    <IconChevron class="absolute bottom-0" />
   </div>
 </template>
 

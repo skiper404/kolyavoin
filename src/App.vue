@@ -11,6 +11,7 @@ const mainStore = useMainStore();
 <template>
   <div
     class="font-press-start relative overflow-hidden scroll-smooth bg-gray-800 text-sm text-white"
+    style="background-image: url(/bg.svg)"
   >
     <Header />
     <Menu v-if="mainStore.showMenu" @click="mainStore.closeMenu" />
